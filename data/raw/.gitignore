@@ -1,0 +1,12 @@
+# Abaikan folder data mentah (data pribadi / mentah tidak boleh di-push)
+data/raw/
+data/raw/*
+
+# Abaikan file cache Python & Jupyter Notebook
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# Abaikan file konfigurasi/environment lokal (seperti file garam hash)
+.env
+.DS_Store
