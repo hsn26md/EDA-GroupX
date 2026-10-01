@@ -1,0 +1,12 @@
+nama_kolom,deskripsi,tipe_data,skala_pengukuran,satuan,nilai_kosong,sumber,kategori_data_pribadi,tindakan_penanganan
+user_id,Kode pengenal unik untuk setiap individu responden dalam survei.,string,Nominal,-,0,Formulir Survei Kaggle,Pengenal langsung,Hapus / Hash
+age,Usia responden dalam satuan tahun saat survei dilaksanakan.,int64,Rasio,Tahun,0,Formulir Survei Kaggle,Quasi-identifier,Generalisasi (diubah ke kelompok umur)
+gender,Identitas jenis kelamin yang dilaporkan secara mandiri oleh responden.,string,Nominal,-,0,Formulir Survei Kaggle,Quasi-identifier,Pertahankan
+occupation_type,Kategori bidang pekerjaan atau status profesi utama responden.,string,Nominal,-,0,Formulir Survei Kaggle,Quasi-identifier,Pertahankan / Generalisasi jika k < 5
+chronotype,"Karakteristik pola biologis ritme sirkadian/tidur alami responden (misal: Night Owl, Morning Lark, Intermediate).",string,Nominal,-,0,Formulir Survei Kaggle,Bukan data pribadi,Pertahankan
+bedtime_phone_minutes,Rata-rata durasi penggunaan ponsel di tempat tidur sebelum tidur dalam satuan menit.,int64,Rasio,Menit,0,Formulir Survei Kaggle,Bukan data pribadi,Pertahankan
+primary_bedtime_app,Aplikasi ponsel utama yang paling sering diakses responden tepat sebelum tidur.,string,Nominal,-,0,Formulir Survei Kaggle,Bukan data pribadi,Pertahankan
+screen_brightness,Tingkat persentase kecerahan layar ponsel yang digunakan sebelum tidur.,float64,Rasio,%,0,Formulir Survei Kaggle,Bukan data pribadi,Pertahankan
+daily_screen_time_hours,Total estimasi waktu tatap layar (screen time) harian responden dalam satuan jam.,float64,Rasio,Jam,0,Formulir Survei Kaggle,Bukan data pribadi,Pertahankan
+total_sleep_hours,Total durasi waktu tidur efektif yang didapatkan responden per malam dalam satuan jam.,float64,Rasio,Jam,0,Formulir Survei Kaggle,Bukan data pribadi,Pertahankan
+sleep_debt_category,Klasifikasi tingkat keparahan akumulasi utang tidur (sleep debt) yang dialami responden.,string,Ordinal,-,0,Formulir Survei Kaggle,Bukan data pribadi,Pertahankan
