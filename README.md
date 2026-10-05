@@ -3,10 +3,10 @@
 Proyek ini disusun untuk memenuhi tugas **Milestone M1** Mata Kuliah *Exploratory Data Analysis* (EDA).
 
 ## 👥 Anggota Kelompok
-1. Ahmad Hussein Mufahir - Repository & Infrastructure Lead
-2. Fikri El - Lead Data Analyst
-3. Aliifah Husnul Khotimah - Data Architect
-4. Zacky Alvansyah - Data Privacy & Security Engineer
+1. Ahmad Hussein Mufahir 
+2. Muhammad Fikrie El Muqoffa 
+3. Aliifah Husnul Khotimah 
+4. Zacky Alvansyah 
 
 ---
 
@@ -14,8 +14,8 @@ Proyek ini disusun untuk memenuhi tugas **Milestone M1** Mata Kuliah *Explorator
 * **Nama Sumber**: Sleep Debt and Screen Time Dataset (oleh Samar Talwar)
 * **Tautan / Instansi**: [Kaggle Dataset Link](https://www.kaggle.com/datasets/samartalwar/sleep-debt-and-screen-time-late-night-phone-habits)
 * **Tanggal Pengambilan**: 30 September 2026
-* **Lisensi / Izin**: CC0: Public Domain (Open Data)
-* **Kalimat Sitasi**: *Talwar, S. (2024). Sleep Debt and Screen Time Dataset. Kaggle.*
+* **Lisensi / Izin**: CC BY-SA 4.0
+* **Kalimat Sitasi**: 
 
 ---
 
