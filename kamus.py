@@ -197,3 +197,57 @@ data_dict = [
         'catatan': 'Fase tidur REM (9.6%–27.0%).'
     },
 ]
+    {
+        'nama_kolom': 'morning_alarm_snoozes',
+        'deskripsi': 'Frekuensi responden menekan tombol tunda (snooze) alaram pagi.',
+        'tipe_data': 'int',
+        'skala_pengukuran': 'Rasio',
+        'satuan': 'Kali',
+        'contoh_nilai': '7',
+        'nilai_kosong': 'Tidak ada (0%)',
+        'sumber': 'bedtime_screentime_sleep_debt.csv',
+        'kategori_data_pribadi': 'Bukan data pribadi',
+        'tindakan_penanganan': 'Pertahankan',
+        'catatan': 'Jumlah tunda alaram (0–7 kali).'
+    },
+    {
+        'nama_kolom': 'next_day_fatigue_score',
+        'deskripsi': 'Skor tingkat kelelahan yang dirasakan responden pada keesokan harinya.',
+        'tipe_data': 'float',
+        'skala_pengukuran': 'Ordinal',
+        'satuan': 'Skor (1–10)',
+        'contoh_nilai': '10.0',
+        'nilai_kosong': 'Tidak ada (0%)',
+        'sumber': 'bedtime_screentime_sleep_debt.csv',
+        'kategori_data_pribadi': 'Data spesifik',
+        'tindakan_penanganan': 'Pertahankan',
+        'catatan': 'Skor persepsi kelelahan (1.0–10.0).'
+    },
+    {
+        'nama_kolom': 'sleep_debt_category',
+        'deskripsi': 'Klasifikasi tingkat keparahan akumulasi utang tidur (sleep debt).',
+        'tipe_data': 'string',
+        'skala_pengukuran': 'Ordinal',
+        'satuan': '—',
+        'contoh_nilai': 'Severe Sleep Debt',
+        'nilai_kosong': 'Tidak ada (0%)',
+        'sumber': 'bedtime_screentime_sleep_debt.csv',
+        'kategori_data_pribadi': 'Data spesifik',
+        'tindakan_penanganan': 'Pertahankan',
+        'catatan': '4 kategori tingkat keparahan utang tidur.'
+    }
+]
+
+df_kamus = pd.DataFrame(data_dict)
+
+# Save as CSV
+csv_filename = "data_dictionary.csv"
+df_kamus.to_csv(csv_filename, index=False)
+
+# Save as Markdown
+md_filename = "data_dictionary.md"
+with open(md_filename, "w", encoding="utf-8") as f:
+    f.write("# Kamus Data — Bedtime Screen Time & Sleep Debt Dataset\n\n")
+    f.write(df_kamus.to_markdown(index=False))
+
+print(f"Created {csv_filename} and {md_filename}")
