@@ -196,7 +196,6 @@ data_dict = [
         'tindakan_penanganan': 'Pertahankan',
         'catatan': 'Fase tidur REM (9.6%–27.0%).'
     },
-]
     {
         'nama_kolom': 'morning_alarm_snoozes',
         'deskripsi': 'Frekuensi responden menekan tombol tunda (snooze) alaram pagi.',
@@ -242,7 +241,7 @@ df_kamus = pd.DataFrame(data_dict)
 
 # Save as CSV
 csv_filename = "data_dictionary.csv"
-df_kamus.to_csv(csv_filename, index=False)
+df_kamus.to_csv(csv_filename, index=False, sep=';', encoding='utf-8-sig')
 
 # Save as Markdown
 md_filename = "data_dictionary.md"
