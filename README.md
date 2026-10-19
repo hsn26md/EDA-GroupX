@@ -1,8 +1,5 @@
-Kelompok-EDA_AI02
-
-## AnggotaTim
-No	Nama	Inisial
-1	Ahmad Hussein Mufahir
-2	Aliifah Husnul Khotimah
-3	M. Fikrie El Mukofa
-4	Zacky Alvansyah
+## 👥 Anggota Kelompok
+1. Ahmad Hussein Mufahir 
+2. Muhammad Fikrie El Muqoffa 
+3. Aliifah Husnul Khotimah 
+4. Zacky Alvansyah 
